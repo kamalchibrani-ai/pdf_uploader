@@ -1,7 +1,6 @@
 import streamlit as st
 import tempfile
 import os
-# from pdf_compression import read_pdf, add_page
 from lossless_compression import compress_pdf
 
 uploaded_pdf = st.file_uploader("Choose a file", type=['pdf'])
